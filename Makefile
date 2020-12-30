@@ -31,6 +31,11 @@ open-gst-sink:
 open-vlc-sink:
 	vlc v4l2:///dev/video6
 
+run:
+	./virtual-cam.py s
+	sleep 3
+	#vlc v4l2:///dev/video6
+
 
 # another helper rules
 install-deps:
